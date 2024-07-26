@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MaríaEugenia</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="shortcut icon" href="media/logo.svg" type= "image/svg">
+        <link rel="stylesheet" href="css/site.css">
+        <link href="https://css.gg/css" rel="stylesheet"/>
+        <script src="js/site.js"></script>
+        
+        <!--comentarios-->
+    </head>
+    <body>  
+        <div class="main-content">        
+            <aside>
+                <div class="profile">
+                    <img src="media/dollifyCurso.PNG" id="photo-profile" class="my-photo" />
+                    <div>
+                        <h1 class="title" >Maria Solis </h1>
+                        <div class="badge-profile">Docente</div>
+                        <div class="social">
+                            <a class= "redSocial" href="https://facebook.com" target="_blank"><i class="gg-facebook"></i></a>
+                            <a class= "redSocial" href="https://twitter.com" target="_blank"><i class="gg-twitter"></i></a>
+                            <a class= "redSocial" href="https://YouTube.com"><i class="gg-youtube"></i></i></a>
+                            <a class= "redSocial" href="https://pokemon-go.com"><i class="gg-pokemon"></i></i></a>
+                        </div>
+                    </div>
+                    <div  class="info">
+                        <ul class="contacts-block">
+                            <li class="contacts-block-item"><a class="gg-calendar"> </a>&nbsp;&nbsp;14, noviembre </li>
+                            <li class="contacts-block-item"><a class="gg-pin"></a>&nbsp;&nbsp;Puebla, México</li>
+                            <li class="contacts-block-item"><a href="mailto:example@mail.com" class="gg-mail"> </a>&nbsp;ms@cobaep.edu.mx</li>
+                            <li class="contacts-block-item phone">&nbsp;&nbsp;+1 (052) 22222-22222</li>
+                            <li class="contacts-block-item"><a href="skype:skype-example">maria_solis</a></li>
+                        </ul>
+     
+                        <a class="btn" href="media/L01.pdf">Download CV</a>
+                    </div>
+                </div>
+            </aside>
+            <section class="resume">
+                <header>
+                    <div class="menu-circle">
+                        <i class="gg-menu-oreos" onclick ="toggleMenu()"></i>
+                    </div>
+                    <div class="inner-menu  js-menu">
+                        <ul class = "nav">
+                            <li class="nav_item"><a class="active" href="index.html">About</a></li>
+                            <li class="nav_item"><a href="portafolio.html"> Portafolio </a></li>
+                            <li class="nav_item"><a href="Adicional.html"> Info Adicional </a></li>
+                        </ul> 
+                    </div>   
+                </header> 
+            <div>
+                <h2 class="title bordered">Portafolio</h2>
+                <div class = "portafolio"  >
+                    
+                    <img src="media/Image_Portafolio/embed_promo_card.webp" onclick="showImage(this)">
+                    <img src="media/Image_Portafolio/magic_media_promo_card.webp" onclick="showImage(this)">
+                    <img src="media/Image_Portafolio/pexels_promo_card.webp" onclick="showImage(this)">
+                    <img src="media/Image_Portafolio/powerpoint_promo_card.jpg" onclick="showImage(this)">
+                    <img src="media/Image_Portafolio/shape_guided_inpainting_promo_card.webp" onclick="showImage(this)">
+                </div>  
+                
+                <div  class="modal" id="preview">
+                <div> 
+                    <a class="close" onclick="closeModal()"><i class="fa-solid fa-square-xmark"></i>&times;</a> 
+                </div>
+                </div>     
+            </div>
+            </section>       
+        </div>
+        <footer class= "ocultarD" class="c_uno">Autor:María</footer>
+</section> 
+ </body>
+</html>
